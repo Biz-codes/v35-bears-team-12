@@ -11,12 +11,12 @@ import { UserProvider } from "../context/useUserStore";
 
 if (process.env.NODE_ENV === "development") {
   if (typeof window === "undefined") {
-    const { server } = require("../../__mocks__/server");
+    const { server } = require("../__mocks__/server");
     server.listen({
       warnOnUncaptured: false,
     });
   } else {
-    const { worker } = require("../../__mocks__/browser");
+    const { worker } = require("../__mocks__/browser");
     worker.start({
       warnOnUncaptured: false,
     });

@@ -1,4 +1,4 @@
-const projects = [
+export const projects = [
   {
     id: 1,
     positionTitle: "Structural Analysis Engineer",
@@ -796,4 +796,4 @@ const projects = [
   },
 ];
 
-export default projects;
+// export default projects;
